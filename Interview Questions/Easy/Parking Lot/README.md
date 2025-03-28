@@ -1,18 +1,29 @@
-## Getting Started
+🔹 Step 1: Clarify Requirements
+Functional Requirements
+✅ Users should be able to park and unpark their vehicles.
+✅ Different vehicle types (Bike, Car, Truck) require different parking spots.
+✅ The system should track available and occupied spots.
+✅ Payment should be calculated based on time spent in the parking lot.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Non-Functional Requirements
+✅ The system should be scalable (support multiple parking lots).
+✅ It should handle concurrent vehicle check-ins/check-outs.
+✅ The system should support automated ticketing & payments.
 
-## Folder Structure
+🔹 Step 2: Identify Core Components
+1️⃣ ParkingLot → Manages multiple parking floors.
+2️⃣ ParkingFloor → Contains multiple parking spots.
+3️⃣ ParkingSpot → Individual parking space (allocated to vehicle).
+4️⃣ Vehicle → Represents a vehicle (Bike, Car, Truck).
+5️⃣ Ticket → Issued when a vehicle enters, used for checkout.
+6️⃣ Payment → Handles payment processing.
+7️⃣ ParkingAttendant → Manages the operations.
 
-The workspace contains two folders by default, where:
+🔹 Step 3: Choose Design Patterns
+Factory Pattern → To create different types of parking spots.
+Strategy Pattern → To calculate parking fees dynamically.
+Singleton Pattern → To ensure one instance of ParkingLot per location.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+🔹 Step 4: Class Diagram (Basic UML)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🔹 Step 5: Implementation
