@@ -1,0 +1,49 @@
+Finalized LLD Question List
+🔹 Easy Problems
+✅ Design a Parking Lot
+✅ Design a Vending Machine (Generalized, covers coffee vending too)
+✅ Design Stack Overflow (Q&A System)
+✅ Design a Logging Framework
+✅ Design a Traffic Signal Control System
+✅ Design a Task Management System (like Trello/JIRA Lite)
+➕ Design a URL Shortener (like bit.ly) (Common LLD question in interviews)
+➕ Design a Rate Limiter (e.g., API request throttling)
+
+🚫 Removed Coffee Vending Machine (too similar to Vending Machine)
+
+🔸 Medium Problems
+✅ Design an ATM
+✅ Design an LRU Cache
+✅ Design an Elevator System
+✅ Design a Pub-Sub System
+✅ Design an Online Auction System (like eBay)
+✅ Design a Hotel Management System
+✅ Design a Digital Wallet Service (like Paytm, Google Pay, etc.)
+✅ Design a Car Rental System (like ZoomCar, Turo)
+✅ Design a Library Management System
+✅ Design a Restaurant Management System
+✅ Design a Concert Ticket Booking System
+➕ Design an Event Management System (like Meetup, Eventbrite)
+➕ Design an Email Service (like Gmail, Outlook)
+➕ Design a Multiplayer Tic-Tac-Toe (adds complexity like matchmaking, state management, etc.)
+
+🚫 Removed LinkedIn (Too broad; Social Network already covers it)
+🚫 Removed Facebook (Reworded as "Design a Social Network")
+
+🔺 Hard Problems
+✅ Design Splitwise (Expense Sharing App)
+✅ Design Uber (Ride-Sharing Service)
+✅ Design a Chess Game
+✅ Design Snake and Ladder Game
+✅ Design an Online Shopping System (like Amazon)
+✅ Design a Music Streaming Service (like Spotify)
+✅ Design an Online Food Delivery Service (like Swiggy/Zomato)
+✅ Design a Stock Trading Platform (like Zerodha, Robinhood)
+✅ Design a Course Registration System
+✅ Design a Movie Ticket Booking System
+✅ Design CricInfo (Live Sports Score Tracking System)
+➕ Design a Payment Gateway (like Razorpay, Stripe, PayPal)
+➕ Design a Cloud Storage System (like Google Drive, Dropbox)
+➕ Design an Online Examination System (like HackerRank, LeetCode contests)
+
+🚫 Removed Airline Management System (Similar to Hotel/Booking Systems)
